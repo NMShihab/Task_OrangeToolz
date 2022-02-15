@@ -1,0 +1,32 @@
+.output-title {
+  font-weight: 300;
+  font-size: large;
+}
+.output-section {
+  margin: 20px;
+  width: 100%;
+  height: 60px;
+}
+.output-text {
+  padding: 20px;
+}
+.hidden {
+  display: none;
+}
+.copy-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.copy-btn img {
+  height: 12px;
+  margin-right: 3px;
+}

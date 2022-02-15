@@ -1,0 +1,80 @@
+.input-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: red;
+}
+
+.card-input {
+  width: 98%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #fafafa;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.separate-button-container {
+  padding-top: 10px;
+  /* display: flex; */
+  /* align-items: flex-start; */
+  margin-right: 10px;
+}
+
+.separate-button-container button {
+  margin-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* .separate-button-container button:hover {
+  background-color: #134276;
+  color: #ffffff;
+} */
+
+.seperate-btn-selected {
+  background-color: #134276 !important;
+  color: #ffffff !important;
+}
+
+.seperate-btn-unselected {
+  background-color: #ffffff;
+}
+
+.buttons {
+  padding-top: 70px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.generate-slug-button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: #465773;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.clr-rt-buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.clr-rs-btn {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
