@@ -15,8 +15,6 @@
 
 .separate-button-container {
   padding-top: 10px;
-  /* display: flex; */
-  /* align-items: flex-start; */
   margin-right: 10px;
 }
 
@@ -32,11 +30,6 @@
   font-weight: 700;
 }
 
-/* .separate-button-container button:hover {
-  background-color: #134276;
-  color: #ffffff;
-} */
-
 .seperate-btn-selected {
   background-color: #134276 !important;
   color: #ffffff !important;
@@ -49,7 +42,6 @@
 .buttons {
   padding-top: 70px;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .generate-slug-button {
@@ -77,4 +69,53 @@
   border-radius: 8px;
   cursor: pointer;
   font-weight: 700;
+}
+
+@media (max-width: 425px) {
+  .input-title {
+    font-size: 0.75rem !important;
+  }
+  .card-input {
+    width: 95%;
+    padding: 8px;
+  }
+  .separate-button-container {
+    padding-top: 30px;
+    display: flex;
+  }
+
+  .separate-button-container button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 0.6rem;
+  }
+
+  .buttons {
+    padding-top: 40px;
+    display: flex;
+  }
+  .remove-number {
+    font-size: 0.7rem;
+    margin-top: 7px;
+    font-weight: 700;
+  }
+  .clr-rs-btn {
+    background-color: #ffffff;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.6rem;
+  }
+
+  .generate-slug-button {
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
 }

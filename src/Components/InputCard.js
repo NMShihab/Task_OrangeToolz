@@ -31,7 +31,6 @@ const InputCard = () => {
 
     if (str === "_") {
       let join = spilit_string.join("_");
-
       setSlug(join);
     }
   };
@@ -40,7 +39,6 @@ const InputCard = () => {
     e.preventDefault();
 
     let spilit_string = inputString.split(" ");
-    console.log(spilit_string);
 
     if (isChecked) {
       spilit_string = spilit_string.filter((st) => isNaN(st));
@@ -107,7 +105,7 @@ const InputCard = () => {
           checked={isChecked}
           onChange={() => setIsChecked(!isChecked)}
         />
-        <label>Remove number</label>
+        <label className="remove-number">Remove number</label>
       </div>
 
       <div className="buttons">
